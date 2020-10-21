@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     private var pageItemList = ArrayList<PageItem>()
     private lateinit var pagerRecyclerAdapter: PagerRecyclerAdapter
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {                    
         super.onCreate(savedInstanceState)
 
         //Hide ActionBar
